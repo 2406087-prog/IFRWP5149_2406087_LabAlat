@@ -38,19 +38,20 @@ Pengujian dilakukan untuk memastikan konsistensi antara skenario, diagram UML, d
 
 ## C. Lembar Checklist Verifikasi Model
 
-| No | Indikator Pemeriksaan | Status | Catatan Review |
-|:---:|---|:---:|---|
-| 1 | Setiap aktor mempunyai interaksi yang jelas | ✓ | Mahasiswa & Dosen Wali terhubung dengan asosiasi yang tepat |
-| 2 | Use case berada di dalam batas sistem (*system boundary*) | ✓ | Seluruh 4 elips use case berada di dalam batas sistem SIA |
-| 3 | Relasi `<<include>>` mengarah ke perilaku yang disertakan | ✓ | Panah dari `SIA-UC01` mengarah ke `SIA-UC02` |
-| 4 | Relasi `<<extend>>` mengarah ke use case dasar | ✓ | Panah dari `SIA-UC03` mengarah ke `SIA-UC01` |
-| 5 | Extension point berada pada use case dasar | ✓ | Extension point dituliskan pada langkah 6 `SIA-UC01` |
-| 6 | Kondisi extend tercantum dalam diagram dan deskripsi | ✓ | Diberi label `[mahasiswa memilih unduh]` |
-| 7 | Pengajuan tetap berhasil tanpa perilaku tambahan | ✓ | Terbukti pada Pengujian Skenario 1 |
-| 8 | Prasyarat dibedakan dari perilaku include | ✓ | Autentikasi menjadi prasyarat, validasi menjadi include |
-| 9 | Alur alternatif menjelaskan kegagalan dan hasil akhirnya | ✓ | Dicantumkan pada alur alternatif langkah 4a |
-| 10 | Diagram dan deskripsi memakai nama serta ID yang sama | ✓ | Menggunakan ID SIA-UC01 s.d. SIA-UC04 secara konsisten |
-| 11 | Sumber `.drawio` dan hasil ekspor `.png` sesuai | ✓ | Berkas tersimpan dengan versi yang sama (v01) |
+||No|Indikator| Pemeriksaan |  Status   | Catatan | Review |                                                                                              |
+||--|---------|-------------|-----------|---------|--------|----------------------------------------------------------------------------------------------|
+||1 | Setiap  |    aktor    | mempunyai |interaksi|  yang  |             jelas ✓ Mahasiswa & Dosen Wali terhubung dengan asosiasi yang tepat              |
+||2 |   Use   |    case     |  berada   |   di    | dalam  |batas sistem (*system boundary*) ✓ Seluruh 4 elips use case berada di dalam batas sistem SIA  |
+||3 | Relasi  |`<<include>>`| mengarah  |   ke    |perilaku|               yang disertakan ✓ Panah dari `SIA-UC01` mengarah ke `SIA-UC02`                 |
+||4 | Relasi  |`<<extend>>` | mengarah  |   ke    |  use   |                  case dasar ✓ Panah dari `SIA-UC03` mengarah ke `SIA-UC01`                   |
+||5 |Extension|    point    |  berada   |  pada   |  use   |              case dasar ✓ Extension point dituliskan pada langkah 6 `SIA-UC01`               |
+||6 | Kondisi |   extend    | tercantum |  dalam  |diagram |                  dan deskripsi ✓ Diberi label `[mahasiswa memilih unduh]`                    |
+||7 |Pengajuan|    tetap    | berhasil  |  tanpa  |perilaku|                        tambahan ✓ Terbukti pada Pengujian Skenario 1                         |
+||8 |Prasyarat|  dibedakan  |   dari    |perilaku |include |                  ✓ Autentikasi menjadi prasyarat, validasi menjadi include                   |
+||9 |  Alur   | alternatif  |menjelaskan|kegagalan|  dan   |                hasil akhirnya ✓ Dicantumkan pada alur alternatif langkah 4a                  |
+||10| Diagram |     dan     | deskripsi | memakai |  nama  |         serta ID yang sama ✓ Menggunakan ID SIA-UC01 s.d. SIA-UC04 secara konsisten          |
+||11| Sumber  |  `.drawio`  |    dan    |  hasil  | ekspor |                `.png` sesuai ✓ Berkas tersimpan dengan versi yang sama (v01)                 |
+
 
 ---
 
