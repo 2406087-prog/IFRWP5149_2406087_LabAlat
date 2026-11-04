@@ -1,0 +1,118 @@
+<mxfile host="65bd71144e">
+    <diagram id="Ks_KnkyVFiVI0MwXOccG" name="Page-1">
+        <mxGraphModel dx="582" dy="476" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="Zb4X9gD2EBVQpfO_b_ts-1" parent="1" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" value="Mahasiswa" vertex="1">
+                    <mxGeometry height="760" width="190" x="70" y="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="Zb4X9gD2EBVQpfO_b_ts-2" edge="1" parent="Zb4X9gD2EBVQpfO_b_ts-1" source="Zb4X9gD2EBVQpfO_b_ts-3" style="edgeStyle=none;html=1;endArrow=block;endFill=1;" target="Zb4X9gD2EBVQpfO_b_ts-4" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Zb4X9gD2EBVQpfO_b_ts-3" parent="Zb4X9gD2EBVQpfO_b_ts-1" style="ellipse;fillColor=strokeColor;html=1;" value="" vertex="1">
+                    <mxGeometry height="30" width="30" x="85" y="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="Zb4X9gD2EBVQpfO_b_ts-4" parent="Zb4X9gD2EBVQpfO_b_ts-1" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" value="Mengisi formulir pengajuan peminjaman" vertex="1">
+                    <mxGeometry height="40" width="140" x="30" y="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="Zb4X9gD2EBVQpfO_b_ts-5" parent="1" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" value="Sistem" vertex="1">
+                    <mxGeometry height="760" width="200" x="260" y="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="Zb4X9gD2EBVQpfO_b_ts-6" parent="Zb4X9gD2EBVQpfO_b_ts-5" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=strokeColor;" value="" vertex="1">
+                    <mxGeometry height="10" width="442.5" x="17.5" y="325" as="geometry"/>
+                </mxCell>
+                <mxCell id="Zb4X9gD2EBVQpfO_b_ts-7" parent="1" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" value="Petugas Laboran" vertex="1">
+                    <mxGeometry height="760" width="280" x="460" y="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="Zb4X9gD2EBVQpfO_b_ts-8" parent="Zb4X9gD2EBVQpfO_b_ts-7" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" value="Menyimpan data pengajuan peminjaman" vertex="1">
+                    <mxGeometry height="40" width="160" x="60" y="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="Zb4X9gD2EBVQpfO_b_ts-9" edge="1" parent="Zb4X9gD2EBVQpfO_b_ts-7" source="Zb4X9gD2EBVQpfO_b_ts-11" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;" target="Zb4X9gD2EBVQpfO_b_ts-13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Zb4X9gD2EBVQpfO_b_ts-10" edge="1" parent="Zb4X9gD2EBVQpfO_b_ts-7" source="Zb4X9gD2EBVQpfO_b_ts-11" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;" target="Zb4X9gD2EBVQpfO_b_ts-28">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Zb4X9gD2EBVQpfO_b_ts-11" parent="Zb4X9gD2EBVQpfO_b_ts-7" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=strokeColor;" value="" vertex="1">
+                    <mxGeometry height="10" width="230" x="25" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="Zb4X9gD2EBVQpfO_b_ts-12" edge="1" parent="Zb4X9gD2EBVQpfO_b_ts-7" source="Zb4X9gD2EBVQpfO_b_ts-8" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;" target="Zb4X9gD2EBVQpfO_b_ts-11" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="130" y="250" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Zb4X9gD2EBVQpfO_b_ts-13" parent="Zb4X9gD2EBVQpfO_b_ts-7" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" value="Periksa kondisi peralatan&lt;div&gt;(dari LAB -UC12) kondisi fisik&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="70" width="120" x="10" y="233" as="geometry"/>
+                </mxCell>
+                <mxCell id="Zb4X9gD2EBVQpfO_b_ts-14" edge="1" parent="Zb4X9gD2EBVQpfO_b_ts-7" source="Zb4X9gD2EBVQpfO_b_ts-15" style="edgeStyle=none;html=1;endArrow=block;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Zb4X9gD2EBVQpfO_b_ts-16" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-100" y="550" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Zb4X9gD2EBVQpfO_b_ts-15" parent="Zb4X9gD2EBVQpfO_b_ts-7" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" value="Menutup transaksi peminjaman" vertex="1">
+                    <mxGeometry height="40" width="140" x="-172.5" y="640" as="geometry"/>
+                </mxCell>
+                <mxCell id="Zb4X9gD2EBVQpfO_b_ts-16" parent="Zb4X9gD2EBVQpfO_b_ts-7" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" value="" vertex="1">
+                    <mxGeometry height="30" width="30" x="-117.5" y="710" as="geometry"/>
+                </mxCell>
+                <mxCell id="Zb4X9gD2EBVQpfO_b_ts-17" edge="1" parent="Zb4X9gD2EBVQpfO_b_ts-7" source="Zb4X9gD2EBVQpfO_b_ts-18" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;" target="Zb4X9gD2EBVQpfO_b_ts-15" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Zb4X9gD2EBVQpfO_b_ts-18" parent="Zb4X9gD2EBVQpfO_b_ts-7" style="rhombus;" value="" vertex="1">
+                    <mxGeometry height="50" width="57.5" x="-131.25" y="550" as="geometry"/>
+                </mxCell>
+                <mxCell id="Zb4X9gD2EBVQpfO_b_ts-19" edge="1" parent="Zb4X9gD2EBVQpfO_b_ts-7" source="Zb4X9gD2EBVQpfO_b_ts-21" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;" target="Zb4X9gD2EBVQpfO_b_ts-23">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Zb4X9gD2EBVQpfO_b_ts-20" connectable="0" parent="Zb4X9gD2EBVQpfO_b_ts-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="[baik dan lengkap]" vertex="1">
+                    <mxGeometry relative="1" x="-0.2357" y="2" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Zb4X9gD2EBVQpfO_b_ts-21" parent="Zb4X9gD2EBVQpfO_b_ts-7" style="rhombus;" value="Peralatan tersedia?" vertex="1">
+                    <mxGeometry height="40" width="160" x="-182.5" y="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="Zb4X9gD2EBVQpfO_b_ts-22" edge="1" parent="Zb4X9gD2EBVQpfO_b_ts-7" source="Zb4X9gD2EBVQpfO_b_ts-23" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;" target="Zb4X9gD2EBVQpfO_b_ts-18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Zb4X9gD2EBVQpfO_b_ts-23" parent="Zb4X9gD2EBVQpfO_b_ts-7" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" value="Perbarui status peralatan menjadi tersedia" vertex="1">
+                    <mxGeometry height="40" width="160" x="-180" y="460" as="geometry"/>
+                </mxCell>
+                <mxCell id="Zb4X9gD2EBVQpfO_b_ts-24" parent="Zb4X9gD2EBVQpfO_b_ts-7" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" value="Catat kerusakan atau kekurangan dan jadwalkan perbaikan" vertex="1">
+                    <mxGeometry height="60" width="140" x="120" y="450" as="geometry"/>
+                </mxCell>
+                <mxCell id="Zb4X9gD2EBVQpfO_b_ts-25" edge="1" parent="Zb4X9gD2EBVQpfO_b_ts-7" source="Zb4X9gD2EBVQpfO_b_ts-21" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;rounded=0;endArrow=block;endFill=1;" target="Zb4X9gD2EBVQpfO_b_ts-24" value="">
+                    <mxGeometry relative="1" x="0.003" as="geometry"/>
+                </mxCell>
+                <mxCell id="Zb4X9gD2EBVQpfO_b_ts-26" connectable="0" parent="Zb4X9gD2EBVQpfO_b_ts-25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="[rusak atau tidak lengkap]" vertex="1">
+                    <mxGeometry relative="1" x="0.0747" y="-2" as="geometry">
+                        <mxPoint x="-39" y="-2" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Zb4X9gD2EBVQpfO_b_ts-27" edge="1" parent="Zb4X9gD2EBVQpfO_b_ts-7" source="Zb4X9gD2EBVQpfO_b_ts-24" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=block;endFill=1;" target="Zb4X9gD2EBVQpfO_b_ts-18">
+                    <mxGeometry relative="1" x="-0.0012" as="geometry"/>
+                </mxCell>
+                <mxCell id="Zb4X9gD2EBVQpfO_b_ts-28" parent="Zb4X9gD2EBVQpfO_b_ts-7" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" value="Periksa kelengkapan aksesoris peralatan (unsur proses baru)" vertex="1">
+                    <mxGeometry height="70" width="120" x="140" y="233" as="geometry"/>
+                </mxCell>
+                <mxCell id="Zb4X9gD2EBVQpfO_b_ts-29" edge="1" parent="1" source="Zb4X9gD2EBVQpfO_b_ts-4" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Zb4X9gD2EBVQpfO_b_ts-8">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="600" y="290"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Zb4X9gD2EBVQpfO_b_ts-30" edge="1" parent="1" source="Zb4X9gD2EBVQpfO_b_ts-13" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.571;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="Zb4X9gD2EBVQpfO_b_ts-6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Zb4X9gD2EBVQpfO_b_ts-31" edge="1" parent="1" source="Zb4X9gD2EBVQpfO_b_ts-28" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.867;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" target="Zb4X9gD2EBVQpfO_b_ts-6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Zb4X9gD2EBVQpfO_b_ts-33" edge="1" parent="1" source="Zb4X9gD2EBVQpfO_b_ts-6" style="edgeStyle=none;html=1;entryX=0.466;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;" target="Zb4X9gD2EBVQpfO_b_ts-21">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
